@@ -43,3 +43,32 @@ span {
 .image {
     float: right;
 }
+
+.box-before {
+    float: left;
+    clear: left;
+    border: 5px solid #009097;
+    background-color: #99E0E0;
+    margin: 10px;
+    padding: 5px;
+}
+.box-main {
+    clear: left;
+    overflow: hidden;
+}
+
+ul {
+    list-style:disc;
+}
+
+.box-third {
+    margin-left: 208px;
+}
+
+*:hover {
+    background-color: yellow;
+}
+
+.box-main, .box-first, .box-second, .box-before, .box-after, .box-third:hover{
+    background-color: white;
+}
